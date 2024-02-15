@@ -27,28 +27,31 @@ div {
   width: 300px;
   margin: 2em;
   padding: 1em;
-  box-shadow: 5px 5px 0 rgba(91, 91, 91, 1);
+  box-shadow: 5px 5px 7px rgb(61, 61, 61);
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .yellow {
-  background-color: #fafbc9;
+  background: rgb(205, 205, 185);
+  background: linear-gradient(0deg, rgb(132, 132, 119) 0%, rgba(250, 251, 201, 1) 35%);
   transform: rotate(-5deg);
 }
 
 .green {
-  background-color: #c5f5c8;
+  background: rgb(205, 205, 185);
+  background: linear-gradient(0deg, rgb(121, 132, 119) 0%, rgba(197, 245, 200, 1) 35%);
   transform: rotate(5deg);
 }
 
 .purple {
-  background-color: #c6c6f1;
+  background: rgb(152, 152, 152);
+  background: linear-gradient(0deg, rgb(131, 119, 132) 0%, rgba(198, 198, 241, 1) 35%);
   transform: rotate(-5deg);
 }
 
 div:hover {
   cursor: pointer;
   transform: rotate(0deg) scale(1.2);
-  box-shadow: 8px rgba(91, 91, 91, 1);
+  box-shadow: 20px 20px 10px rgb(61, 61, 61);
 }
